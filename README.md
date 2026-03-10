@@ -64,8 +64,42 @@ Every time an stratum job notification is received miner update its current work
 - LILYGO T-HMI ([Aliexpress link\*](https://s.click.aliexpress.com/e/_oFII4s2)) / Dev support: @cosmicpsyop
 - ESP32-C3 0.42 Inch OLED ([Aliexpress link\*](https://s.click.aliexpress.com/e/_oDmT4Id) / Dev support: @mrthiti / ⚡ wallet@thiti.dev)
 - ESP32-S3 0.42 Inch OLED ([Aliexpress link\*](https://s.click.aliexpress.com/e/_oFIMUoh) / Dev support: @mrthiti / ⚡ wallet@thiti.dev)
+- ESP32-DevKit V4 con OLED 0.96 pulgadas (128x64 SSD1306 I2C) - Configuración específica incluida
 
 \*Affiliate links
+
+### Configuración Pantalla OLED 0.96 pulgadas
+
+Este proyecto está **modificado y configurado específicamente** para funcionar con pantallas OLED de 0.96 pulgadas como salida principal de visualización.
+
+#### Características de la configuración:
+
+- **Tipo de pantalla**: OLED SSD1306 de 0.96 pulgadas
+- **Resolución**: 128x64 píxeles
+- **Interfaz**: I2C
+- **Dirección I2C**: 0x3C (configuración por defecto)
+- **Controlador**: U8G2_SSD1306_128X64_NONAME_F_HW_I2C
+
+#### Configuración de pines (ESP32-DevKit V4):
+- **SDA (I2C Data)**: Pin 21
+- **SCL (I2C Clock)**: Pin 22
+- **Botón**: Pin 0
+- **LED**: Pin 2
+
+#### Entorno PlatformIO:
+- **Environment**: `ESP32-DevKitV4-OLED096`
+- **Librería**: U8g2 v2.34.17 para control del display
+
+#### Archivos de configuración relevantes:
+- `platformio.ini` - Entorno de compilación ESP32-DevKitV4-OLED096
+- `src/drivers/devices/esp32DevKitV4-OLED096.h` - Definición de pines
+- `src/drivers/displays/oled096DisplayDriver.cpp` - Driver específico para OLED 0.96"
+
+#### Pantallas soportadas:
+- Mining data con hash rate y shares
+- Temperatura y dificultad
+- Estadísticas completas de minería
+- Pantalla de carga y configuración
 
 ### Flash firmware
 
