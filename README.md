@@ -78,7 +78,12 @@ Every time an stratum job notification is received miner update its current work
 - LILYGO T-HMI ([Aliexpress link\*](https://s.click.aliexpress.com/e/_oFII4s2)) / Dev support: @cosmicpsyop
 - ESP32-C3 0.42 Inch OLED ([Aliexpress link\*](https://s.click.aliexpress.com/e/_oDmT4Id) / Dev support: @mrthiti / ⚡ wallet@thiti.dev)
 - ESP32-S3 0.42 Inch OLED ([Aliexpress link\*](https://s.click.aliexpress.com/e/_oFIMUoh) / Dev support: @mrthiti / ⚡ wallet@thiti.dev)
+
+
+
+!!!!!!!!!! ESP32-DevKit V4 con OLED 0.96 pulgadas (128x64 SSD1306 I2C) - Configuración específica incluida !!!!!!!!!!
 - ESP32-DevKit V4 con OLED 0.96 pulgadas (128x64 SSD1306 I2C) - Configuración específica incluida
+
 
 \*Affiliate links
 
