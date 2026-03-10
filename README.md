@@ -1,14 +1,28 @@
-# NerdSoloMiner
+# NerdSoloMiner - Fork con Soporte OLED 0.96"
 
-**The NerdSoloMiner v2**
+**The NerdSoloMiner v2 - Versión modificada con soporte para pantalla OLED 0.96 pulgadas**
+
+> **📋 Nota**: Este es un fork del proyecto original NerdMiner v2, modificado específicamente para soportar pantallas OLED de 0.96 pulgadas (128x64 SSD1306 I2C).
 
 This is a **free and open source project** that let you try to reach a bitcoin block with a small piece of hardware.
 
 The main aim of this project is to let you **learn more about minery** and to have a beautiful piece of hardware in your desktop.
 
-Original project https://github.com/valerio-vaccaro/HAN
+## 🏗️ Información del Fork
 
-![image](images/bgNerdMinerV2.png)
+- **Proyecto Original**: [NerdMiner v2](https://github.com/valerio-vaccaro/HAN) por Valerio Vaccaro
+- **Fork por**: nelovick
+- **Modificación Principal**: Soporte nativo para pantalla OLED 0.96 pulgadas (SSD1306)
+- **Licencia**: MIT License (misma que el proyecto original)
+
+### Cambos Implementados en este Fork:
+- ✅ Configuración específica para ESP32-DevKit V4 con OLED 0.96"
+- ✅ Driver optimizado para display SSD1306 128x64
+- ✅ Dirección I2C 0x3C configurada por defecto
+- ✅ Pines I2C: SDA(21), SCL(22)
+- ✅ Pantallas adaptadas para resolución 128x64
+
+
 
 ## Requirements
 
